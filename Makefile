@@ -11,3 +11,7 @@ BasicAssertions: BasicAssertions.cpp
 BinaryComparison: BinaryComparison.cpp
 	g++ BinaryComparison.cpp -lgtest -lgtest_main
 	./a.out
+
+StringComparison: StringComparison.cpp
+	g++ StringComparison.cpp -lgtest -lgtest_main
+	./a.out
