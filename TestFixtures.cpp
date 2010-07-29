@@ -28,6 +28,7 @@ public:
     std::cout << "FooTest::TearDown" << std::endl;
   }
 
+  // 継承して最終的なテストクラスを作成するようなので、protectedにしておく
 protected:
 
   Foo foo_;
